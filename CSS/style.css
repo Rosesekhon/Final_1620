@@ -18,6 +18,24 @@
   box-sizing: border-box;
 }
 
+@media screen (max-width:600px){}
+  .main{
+    flex-direction:column;
+    width: 100%;
+    height: 8vh;
+    padding: 2vw;
+    text-align: initial;
+    align-items:initial;
+  }  
+}
+
+
+
+
+
+
+
+
 /* notice how the default light theme colors are set by this class. */
 .light-theme {
   --navBg:var(--lightGreen);
@@ -30,8 +48,8 @@
 }
 .dark-theme{
   --navBg:var(--darkGreen);
-  --navLinkHoverBg:var(--white);
-  --mainBg:var(--white);
+  --navLinkHoverBg:var(--lightGreen);
+  --mainBg:var(--black);
   --fontColor:var(--white);
   --navLinkColor:var(--blueGray);
   --formBG:var(--white);
@@ -85,7 +103,7 @@ header {
 }
 
 nav {
-  background: var(--navBg);
+  background-color: var(--navBg);
   position: relative;
 }
 
@@ -126,7 +144,7 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: var(--mainBg);
+  background-color:var(--mainBg);
   /* the calc functin does exactly what you think it does */
   /* in this case we are calulating the height based on viewport height */
   /* minus the nav height, cool right! */
@@ -195,6 +213,8 @@ input[type=text]:focus {
 }
 
 .contact button {
- background: var(--darkGreen);
+ background-color: var(--darkGreen);
  color: var(--white);
 }
+
+
