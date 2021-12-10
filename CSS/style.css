@@ -147,15 +147,17 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 8rem;
+  
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 8rem;
+  font-size: 4rem;
 }
 
 .myForm {
   display: flex;
+  flex-wrap:wrap;
   background-color: var(--formBG);
   font-family: Poppins, sans-serif;
   border-radius: 8px;
