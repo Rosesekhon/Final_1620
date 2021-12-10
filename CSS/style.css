@@ -20,14 +20,25 @@
 
 /* notice how the default light theme colors are set by this class. */
 .light-theme {
-  --navBg:          var(--lightGreen);
-  --navLinkHoverBg: var(--white);
-  --mainBg:         var(--white);
-  --fontColor:      var(--black);
-  --navLinkColor:   var(--lightCoral);
-  --formBG:         var(--lightCoral);
-  --formInput:      var(--white);
+  --navBg:var(--lightGreen);
+  --navLinkHoverBg:var(--white);
+  --mainBg:var(--white);
+  --fontColor:var(--black);
+  --navLinkColor:var(--lightCoral);
+  --formBG:var(--lightCoral);
+  --formInput:var(--white);
 }
+.dark-theme{
+  --navBg:var(--darkGreen);
+  --navLinkHoverBg:var(--white);
+  --mainBg:var(--white);
+  --fontColor:var(--white);
+  --navLinkColor:var(--blueGray);
+  --formBG:var(--white);
+  --formInput:var(--lightGreen);
+}
+
+
 
 /* toggle styles begin */
 .toggle {
