@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 
-@media screen (max-width:600px){}
+@media screen,(max-width:600px){
   .main{
     flex-direction:column;
     width: 100%;
@@ -26,15 +26,7 @@
     padding: 2vw;
     text-align: initial;
     align-items:initial;
-  }  
-}
-
-
-
-
-
-
-
+};
 
 /* notice how the default light theme colors are set by this class. */
 .light-theme {
@@ -54,9 +46,7 @@
   --navLinkColor:var(--blueGray);
   --formBG:var(--white);
   --formInput:var(--lightGreen);
-}
-
-
+} 
 
 /* toggle styles begin */
 .toggle {
@@ -81,7 +71,7 @@
   z-index: 2;
   width: 28px;
   height: 28px;
-  background: var(--romanSilver);
+  background-color: var(--romanSilver);
   left: 2px;
   top: 2px;
   border-radius: 50%;
